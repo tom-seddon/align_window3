@@ -1,0 +1,57 @@
+* align_window3
+
+=align_window3= lets you create tiled window arrangements easily, by
+quickly making a window occupy all, 2/3, 1/2 or 1/3 of the screen's width
+or height.
+
+It's designed for use with a hotkey program such as [[http://www.autohotkey.com/][AutoHotkey]].
+
+(=align_window3= is the sequel to [[https://github.com/tom-seddon/align_window2][align_window2]].)
+
+* download
+
+[[https://github.com/tom-seddon/align_window3/raw/master/align_window3_Release_x86.exe][Get align_window3_Release_x86.exe direct from the repo]]. Save it
+somewhere.
+
+* AutoHotkey installation
+
+The official approved AutoHotkey configuration is as follows. Add this
+to your AutoHotkey INI file using =Edit This Script= on the AutoHotkey
+context menu, replacing =c:\bin= with the name of the folder you
+copied align_window3 to.
+
+Don't forget to use =Reload This Script= when done.
+
+: #Numpad0::Run c:\bin\align_window3_Release_x86.exe x7
+: #Numpad1::Run c:\bin\align_window3_Release_x86.exe x1
+: #Numpad2::Run c:\bin\align_window3_Release_x86.exe x2
+: #Numpad3::Run c:\bin\align_window3_Release_x86.exe x3
+: #Numpad4::Run c:\bin\align_window3_Release_x86.exe x4
+: #Numpad5::Run c:\bin\align_window3_Release_x86.exe x6
+: #Numpad6::Run c:\bin\align_window3_Release_x86.exe y3
+: #Numpad7::Run c:\bin\align_window3_Release_x86.exe x5
+: #Numpad8::Run c:\bin\align_window3_Release_x86.exe y6
+: #Numpad9::Run c:\bin\align_window3_Release_x86.exe y2
+: #NumpadDiv::Run c:\bin\align_window3_Release_x86.exe y4
+: #NumpadMult::Run c:\bin\align_window3_Release_x86.exe y1
+: #NumpadSub::Run c:\bin\align_window3_Release_x86.exe y5
+: #NumpadDot::Run c:\bin\align_window3_Release_x86.exe x9
+: #NumpadEnter::Run c:\bin\align_window3_Release_x86.exe y9
+: #NumpadAdd::Run c:\bin\align_window3_Release_x86.exe y7
+
+With this setup, hold the Windows and press a key on the numeric
+keypad to set the window's size and position.
+
+For width:
+
+- all :: =7=
+- 2/3 :: =0=, =.=
+- 1/2 :: =4=, =5=
+- 1/3 :: =1=, =2=, =3=
+
+For height:
+
+- all :: =-=
+- 2/3 :: =+=, =Enter=
+- 1/2 :: =8=, =/=
+- 1/3 :: =6=, =9=, =*=
