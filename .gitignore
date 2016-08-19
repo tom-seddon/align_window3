@@ -1,0 +1,7 @@
+/.build/
+*.suo
+*.VC.VC.opendb
+*.VC.db
+align_window3_Debug_*.*
+*.iobj
+*.ipdb
