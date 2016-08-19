@@ -42,16 +42,16 @@ Don't forget to use =Reload This Script= when done.
 With this setup, hold the Windows and press a key on the numeric
 keypad to set the window's size and position.
 
-For width:
+| Width | Keys          |
+|-------+---------------|
+| all   | =7=           |
+| 2/3   | =0=, =.=      |
+| 1/2   | =4=, =5=      |
+| 1/3   | =1=, =2=, =3= |
 
-- all :: =7=
-- 2/3 :: =0=, =.=
-- 1/2 :: =4=, =5=
-- 1/3 :: =1=, =2=, =3=
-
-For height:
-
-- all :: =-=
-- 2/3 :: =+=, =Enter=
-- 1/2 :: =8=, =/=
-- 1/3 :: =6=, =9=, =*=
+| Height | Keys          |
+|--------+---------------|
+| all    | =-=           |
+| 2/3    | =+=, =Enter=  |
+| 1/2    | =8=, =/=      |
+| 1/3    | =6=, =9=, =*= |
